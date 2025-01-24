@@ -23,6 +23,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + Solid + Azure Static Web Apps</h1>
+      <h2>Some Changes</h2>
       <div class="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count()}
