@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 const fetchMessage = async () => {
-  const response = await fetch('http://localhost:8080/hello');
+  const response = await fetch('/api/hello');
     return response.text();
 }
 
