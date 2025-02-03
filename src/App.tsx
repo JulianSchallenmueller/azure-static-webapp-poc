@@ -43,7 +43,6 @@ function App() {
             <div>{message()}</div>
           </Match>
         </Switch>
-        <div>Some change</div>
       </div>
     </>
   )
