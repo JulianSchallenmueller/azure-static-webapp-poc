@@ -42,6 +42,7 @@ function App() {
           <Match when={message}>
             <div>{message()}</div>
           </Match>
+          <div>{import.meta.env.VITE_SOME_VARIABLE}</div>
         </Switch>
       </div>
     </>
