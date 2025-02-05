@@ -3,7 +3,7 @@
     "allowedIpRanges": [
       "94.186.169.0/24",
       "94.186.193.0/24"
-    ],
-    "VITE_SOME_VARIABLE": "Hello from the env!"
-  }
+    ]
+  },
+  "VITE_SOME_VARIABLE": "Hello from the env!"
 }
