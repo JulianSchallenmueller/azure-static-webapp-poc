@@ -8,8 +8,6 @@ const fetchMessage = async () => {
     return response.text();
 }
 
-const { SOME_VARIABLE } = process.env;
-
 function App() {
   const [count, setCount] = createSignal(0)
   const [message] = createResource(fetchMessage)
@@ -45,7 +43,7 @@ function App() {
             <div>{message()}</div>
           </Match>
         </Switch>
-        <div>{SOME_VARIABLE}</div>
+        <div>{process.env.SOME_VARIABLE}</div>
       </div>
     </>
   )
