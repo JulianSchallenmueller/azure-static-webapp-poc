@@ -1,0 +1,4 @@
+{
+  "SOME_VARIABLE": "Hello from the env!",
+  "SOME_OTHER_VAR": "The other side"
+}

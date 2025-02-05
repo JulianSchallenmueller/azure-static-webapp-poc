@@ -8,6 +8,8 @@ const fetchMessage = async () => {
     return response.text();
 }
 
+const { SOME_VARIABLE } = process.env;
+
 function App() {
   const [count, setCount] = createSignal(0)
   const [message] = createResource(fetchMessage)
@@ -42,9 +44,8 @@ function App() {
           <Match when={message}>
             <div>{message()}</div>
           </Match>
-          <div>{import.meta.env.VITE_SOME_VARIABLE}</div>
         </Switch>
-        <div>{import.meta.env.VITE_SOME_VARIABLE}</div>
+        <div>{SOME_VARIABLE}</div>
       </div>
     </>
   )
