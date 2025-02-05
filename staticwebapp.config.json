@@ -5,5 +5,7 @@
       "94.186.193.0/24"
     ]
   },
-  "VITE_SOME_VARIABLE": "Hello from the env!"
+  "Values": {
+    "VITE_SOME_VARIABLE": "Hello from the env!"
+  }
 }
