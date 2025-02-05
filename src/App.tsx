@@ -43,7 +43,7 @@ function App() {
             <div>{message()}</div>
           </Match>
         </Switch>
-        <div>{process.env.SOME_SECRET}</div>
+        <div>{import.meta.env.VITE_SOME_VARIABLE}</div>
         <div>{"Hello"}</div>
       </div>
     </>
