@@ -43,7 +43,7 @@ function App() {
             <div>{message()}</div>
           </Match>
         </Switch>
-        <div>{import.meta.env.SOME_SECRET}</div>
+        <div>{process.env.SOME_SECRET}</div>
         <div>{"Hello"}</div>
       </div>
     </>
