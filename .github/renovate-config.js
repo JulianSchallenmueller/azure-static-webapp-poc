@@ -6,7 +6,7 @@ module.exports = {
   onboarding: false,
   platform: 'github',
   forkProcessing: 'enabled',
-  dryRun: 'full',
+  dryRun: null,
   repositories: ['JulianSchallenmueller/azure-static-webapp-poc'],
   packageRules: [
     {
